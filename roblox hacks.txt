@@ -36,8 +36,10 @@ local Window = Library.CreateLib("Exotic Hub", "Ocean")
     MainSection:NewButton("Drop Offs", "Cool Stuff!", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/shesssssh/DROPOFFS/main/DROP%20OFFS.txt", true))()
     end)
-    
-
+    MainSection:NewButton("Hoopz", "Aimbot and more!", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/dMkvewQs'))()
+    end)
+   
     --LOCAL PLAYER
     local Player = Window:NewTab("Player")
     local PlayerSection = Player:NewSection("Player")
